@@ -1,0 +1,202 @@
+body{
+	max-width: 100%;
+	margin: 0;
+	padding-right: -4%;
+	overflow-x: hidden;
+	display: inline-block;
+	background-size: cover;
+	overflow: auto;
+}
+.header-container{
+	width: 100%; 
+	height: auto;
+	padding-right: 4%; 
+}
+.body-container{
+	height: 460px; 
+	width:100%
+}
+.mj-logo{
+	height: auto;
+}
+.mj-logo
+img{
+	height: 40px;
+}
+.contact-nos{
+    width: 50%;
+    font-size: 50%;
+    text-align: right;
+    margin-right: 4% 
+}
+.enquire-container{
+    width: 45%; 
+    background: black; 
+    opacity: .8; 
+    height: auto; 
+    left: 45%;
+    top: 0%;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    transition: .8s;
+    clear: both
+}
+.enquire-container-contents{
+    opacity: 1;
+    font-family: arial,helvetica,sans-serif;
+}
+.small-text-container{
+	width: 100%;
+    background-color: #414141;
+    color: white;
+    box-shadow: 0px 0px 50px #666;
+    font-size: .9em;
+    padding-left: 5%; 
+    line-height: 20px;
+}
+.enquireInput{ 
+    width: 85%; 
+    font-size: 10px; 
+    height: 15px; 
+    padding-left: 12px; 
+    padding-right: 12px;
+}
+div strong{
+    font-size: .7em;
+}
+.submitButton{
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #f07c00;
+    padding: 8px 30px;
+    width: 105%;
+    color: white;
+    border: 0px;
+    transition: .6s;
+    margin-top: 30px
+}
+.submitButton:hover{
+    background-color: #d15e00;
+    transform: scale(1.05);
+}
+.astro{
+	margin-left: 230px;
+	padding-top: 0;
+}
+.astro
+img{
+	margin-left: 0;
+	width: 100px;
+	padding-bottom: 5px;
+}
+#span-welcome{
+	font-size: 80%;
+}
+#span-new-living{
+	font-size: 200%;
+}
+.enquire-items{
+	padding:0
+}
+form div{
+	margin-top: 5px;
+}
+.enquire-content-1{
+    padding-top: 20px;
+    font-size: .6em; 
+    word-spacing: 3px; 
+    line-height: 10pt
+}
+.bank-img{
+	display: block;
+}
+.half{
+	width: 100%;
+	display: block;
+}
+.half div{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.bank-container{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+	display: block; 
+	margin-top: 20px;
+}
+.item-content{
+    margin-top: 10px;
+}
+iframe{
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 30px 10px #333232;
+    transition: .4s;
+}
+iframe:hover{
+    transform: scale(1.1);
+}
+.detail-div{
+    background-color: #e6e3e3; 
+    padding: 50px;
+    text-align: justify;
+    font-size: .8em;
+    line-height: 22px;
+}
+.more-btn{
+    border-radius: 7px;
+    background-color: #555;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3px;
+    padding: 8px;
+    width: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+    float: left;
+    font-weight: bold;
+}
+.more-btn:hover{
+    background-color: black;
+    opacity:1;
+    box-shadow: 0px 0px 20px #666;
+}
+.more-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.more-btn span:after {
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.more-btn:hover span {
+    padding-right: 25px;
+}
+
+.more-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.more-btn div{
+    padding: 3px;
+    transition: all .5s;
+    border-radius: 5px;
+}
+.more-btn div div:hover{
+    background-color: #262626;
+}
+#view-more{
+    border-bottom: 1px solid white;
+}
